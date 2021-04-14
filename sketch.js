@@ -21,12 +21,13 @@ function setup(){
 	//Earth
 	body[3]=new planets(W/2-330,H/2,6,.005);
 	body[3].col="#709dd8";
-	function validateField() {
+	
+	/*function validateField() {
 
 		var docs = document.getElementById("img");
 		docs.setAttribute("src", "EARTH.gif")
-	}
-	//body[3]= loadImage("EARTH.gif");
+	}*/
+	
 	//Mars
 	body[4]=new planets(W/2-333,H/2,8,.006);
 	body[4].col="#F75959";
